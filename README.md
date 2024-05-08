@@ -23,29 +23,3 @@ The company collected the data on individuals who purchased a treadmill from the
 stores during the prior three months. The dataset has the following features:
 
 **Dataset link:** [AerofitCaseStudyData](https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/001/125/original/aerofit_treadmill.csv?1639992749)
-
-## Product Portfolio:
-
-The KP281 is an entry-level treadmill that sells for $1,500.
-The KP481 is for mid-level runners that sell for $1,750.
-
-The KP781 treadmill is having advanced features that sell for $2,500.
-
-## What good looks like?
-
-1. Import the dataset and do usual data analysis steps like checking the structure &
-   characteristics of the dataset
-2. Detect Outliers (using boxplot, “describe” method by checking the difference between
-   mean and median)
-3. Check if features like marital status, age have any effect on the product purchased (using
-   countplot, histplots, boxplots etc)
-4. Representing the marginal probability like - what percent of customers have purchased
-   KP281, KP481, or KP781 in a table (can use pandas.crosstab here)
-5. Check correlation among different factors using heat maps or pair plots.
-6. With all the above steps you can answer questions like: What is the probability of a
-   male customer buying a KP781 treadmill?
-7. Customer Profiling - Categorization of users.
-8. Probability- marginal, conditional probability.
-9. Some recommendations and actionable insights, based on the inferences.
-   Later on, we will see more ways to do “customer segmentation”, but this case study in itself
-   is relevant in some real-world scenarios.
